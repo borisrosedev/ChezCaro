@@ -1,0 +1,40 @@
+env:
+  commonjs: true
+  es6: true
+  jest: true
+  node: true
+
+ignorePatterns:
+  - "!.*"
+  - "**/node_modules/.*"
+  - "**/dist/.*"
+  - "**./coverage/.*"
+  - "*.json"
+
+parser: "@typescript-eslint/parser"
+
+parserOptions:
+  ecmaVersion: 2023
+  sourceType: module
+  requireConfigFile: false
+  babelOptions:
+    babelrc: false
+    configFile: false
+    presets:
+      - jest
+  project: './tsconfig.json'
+
+plugins:
+  - "@typescript-eslint"
+  - jest 
+  - prettier
+
+extends:
+ - eslint:recommended
+ - plugin:@typescript-eslint/recommended
+ - plugin:github/recommended
+ - plugin:jest/recommended
+ - plugin:prettier/recommended
+
+rules:
+  prettier/prettier: "error"
