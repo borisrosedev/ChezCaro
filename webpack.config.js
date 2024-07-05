@@ -42,7 +42,7 @@ module.exports = {
       },
       {
         test: /\.(png|jpe?g|gif|svg)$/i,
-        type: "asset/resource", // Fixed typo here
+        type: "asset/resource",
         generator: {
           filename: "images/[name][ext][query]"
         }
@@ -64,7 +64,8 @@ module.exports = {
       ]
     }),
     new HtmlPlugin({
-      template: "index.html"
+      template: "index.html",
+      title: "Development"
     })
   ]
 }

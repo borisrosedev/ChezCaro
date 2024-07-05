@@ -6,10 +6,14 @@ env:
 
 ignorePatterns:
   - "!.*"
+  - "**.test.ts"
+  - "**.spec.ts"
   - "**/node_modules/.*"
   - "**/dist/.*"
-  - "**./coverage/.*"
+  - "**/coverage/.*"
   - "*.json"
+  - "**/types/*.d.ts"
+  - "**/__test__/*.ts"
 
 parser: "@typescript-eslint/parser"
 
@@ -17,11 +21,6 @@ parserOptions:
   ecmaVersion: 2023
   sourceType: module
   requireConfigFile: false
-  babelOptions:
-    babelrc: false
-    configFile: false
-    presets:
-      - jest
   project: "./tsconfig.json"
 
 plugins:
@@ -37,4 +36,14 @@ extends:
   - plugin:prettier/recommended
 
 rules:
+  camelcase: "off"
+  eslint-plugin-import/no-anonymous-default-export: "off"
+  import/no-anonymous-default-export: "off"
   prettier/prettier: "error"
+  import/no-commonjs: "off"
+  no-unused-vars: "off"
+  no-undef: "off"
+  eqeqeq: "off"
+  no-console: "off"
+  typescript-eslint/no-var-requires: "off"
+  typescript-eslint/no-unused-vars: "off"

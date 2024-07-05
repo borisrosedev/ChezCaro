@@ -13,9 +13,11 @@ jobs:
     steps:
       - name: "Put the App Folder into the executor virtual machine"
         uses: actions/checkout@v4
+
       - name: "Install Node.js"
         uses: actions/setup-node@v4
         with:
           node-version-file: .node-version
           cache: npm
-      - run: npm install && npm run format:check
+          
+      - run: npm install && npm run format:check && npm run test

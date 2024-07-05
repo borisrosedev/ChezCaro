@@ -1,0 +1,428 @@
+{
+  "/Users/borisrose/Desktop/ChezCaro/src/ts/components/button/button.ts": {
+    "path": "/Users/borisrose/Desktop/ChezCaro/src/ts/components/button/button.ts",
+    "statementMap": {
+      "0": {
+        "start": { "line": 4, "column": 2 },
+        "end": { "line": 11, "column": 9 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": { "line": 3, "column": 15 },
+          "end": { "line": 3, "column": 16 }
+        },
+        "loc": {
+          "start": { "line": 3, "column": 47 },
+          "end": { "line": 12, "column": 1 }
+        },
+        "line": 3
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": { "line": 6, "column": 32 },
+          "end": { "line": 6, "column": 72 }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": { "line": 6, "column": 51 },
+            "end": { "line": 6, "column": 67 }
+          },
+          {
+            "start": { "line": 6, "column": 70 },
+            "end": { "line": 6, "column": 72 }
+          }
+        ],
+        "line": 6
+      },
+      "1": {
+        "loc": {
+          "start": { "line": 7, "column": 22 },
+          "end": { "line": 7, "column": 48 }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": { "line": 7, "column": 34 },
+            "end": { "line": 7, "column": 43 }
+          },
+          {
+            "start": { "line": 7, "column": 46 },
+            "end": { "line": 7, "column": 48 }
+          }
+        ],
+        "line": 7
+      }
+    },
+    "s": { "0": 1 },
+    "f": { "0": 1 },
+    "b": { "0": [0, 1], "1": [0, 1] },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "2b407f4ddbd2a399f9e7ede95738c1008f9bd38b"
+  },
+  "/Users/borisrose/Desktop/ChezCaro/src/ts/components/form/form.ts": {
+    "path": "/Users/borisrose/Desktop/ChezCaro/src/ts/components/form/form.ts",
+    "statementMap": {
+      "0": {
+        "start": { "line": 6, "column": 38 },
+        "end": { "line": 6, "column": 42 }
+      },
+      "1": {
+        "start": { "line": 7, "column": 2 },
+        "end": { "line": 17, "column": 9 }
+      },
+      "2": {
+        "start": { "line": 10, "column": 39 },
+        "end": { "line": 10, "column": 55 }
+      },
+      "3": {
+        "start": { "line": 13, "column": 40 },
+        "end": { "line": 13, "column": 50 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": { "line": 5, "column": 15 },
+          "end": { "line": 5, "column": 16 }
+        },
+        "loc": {
+          "start": { "line": 5, "column": 47 },
+          "end": { "line": 18, "column": 1 }
+        },
+        "line": 5
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": { "line": 10, "column": 33 },
+          "end": { "line": 10, "column": 34 }
+        },
+        "loc": {
+          "start": { "line": 10, "column": 39 },
+          "end": { "line": 10, "column": 55 }
+        },
+        "line": 10
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": { "line": 13, "column": 34 },
+          "end": { "line": 13, "column": 35 }
+        },
+        "loc": {
+          "start": { "line": 13, "column": 40 },
+          "end": { "line": 13, "column": 50 }
+        },
+        "line": 13
+      }
+    },
+    "branchMap": {},
+    "s": { "0": 0, "1": 0, "2": 0, "3": 0 },
+    "f": { "0": 0, "1": 0, "2": 0 },
+    "b": {}
+  },
+  "/Users/borisrose/Desktop/ChezCaro/src/ts/components/input-article/input-article.ts": {
+    "path": "/Users/borisrose/Desktop/ChezCaro/src/ts/components/input-article/input-article.ts",
+    "statementMap": {
+      "0": {
+        "start": { "line": 4, "column": 2 },
+        "end": { "line": 18, "column": 9 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": { "line": 3, "column": 15 },
+          "end": { "line": 3, "column": 16 }
+        },
+        "loc": {
+          "start": { "line": 3, "column": 45 },
+          "end": { "line": 19, "column": 1 }
+        },
+        "line": 3
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": { "line": 12, "column": 32 },
+          "end": { "line": 12, "column": 64 }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": { "line": 12, "column": 45 },
+            "end": { "line": 12, "column": 55 }
+          },
+          {
+            "start": { "line": 12, "column": 58 },
+            "end": { "line": 12, "column": 64 }
+          }
+        ],
+        "line": 12
+      }
+    },
+    "s": { "0": 0 },
+    "f": { "0": 0 },
+    "b": { "0": [0, 0] }
+  },
+  "/Users/borisrose/Desktop/ChezCaro/src/ts/interfaces/custom-button.interface.ts": {
+    "path": "/Users/borisrose/Desktop/ChezCaro/src/ts/interfaces/custom-button.interface.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "/Users/borisrose/Desktop/ChezCaro/src/ts/interfaces/custom-form-data.interface.ts": {
+    "path": "/Users/borisrose/Desktop/ChezCaro/src/ts/interfaces/custom-form-data.interface.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "/Users/borisrose/Desktop/ChezCaro/src/ts/interfaces/custom-input.interface.ts": {
+    "path": "/Users/borisrose/Desktop/ChezCaro/src/ts/interfaces/custom-input.interface.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "/Users/borisrose/Desktop/ChezCaro/src/ts/interfaces/custom-notification.interface.ts": {
+    "path": "/Users/borisrose/Desktop/ChezCaro/src/ts/interfaces/custom-notification.interface.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "/Users/borisrose/Desktop/ChezCaro/src/ts/layout/header/header.ts": {
+    "path": "/Users/borisrose/Desktop/ChezCaro/src/ts/layout/header/header.ts",
+    "statementMap": {
+      "0": {
+        "start": { "line": 1, "column": 15 },
+        "end": { "line": 13, "column": 1 }
+      },
+      "1": {
+        "start": { "line": 2, "column": 2 },
+        "end": { "line": 12, "column": 9 }
+      },
+      "2": {
+        "start": { "line": 16, "column": 2 },
+        "end": { "line": 22, "column": 9 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": { "line": 1, "column": 15 },
+          "end": { "line": 1, "column": 16 }
+        },
+        "loc": {
+          "start": { "line": 1, "column": 29 },
+          "end": { "line": 13, "column": 1 }
+        },
+        "line": 1
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": { "line": 15, "column": 15 },
+          "end": { "line": 15, "column": 16 }
+        },
+        "loc": {
+          "start": { "line": 15, "column": 35 },
+          "end": { "line": 23, "column": 1 }
+        },
+        "line": 15
+      }
+    },
+    "branchMap": {},
+    "s": { "0": 2, "1": 2, "2": 2 },
+    "f": { "0": 2, "1": 2 },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "2b6399299e3d82b4ee0fb0c4a6535a4fff41e811"
+  },
+  "/Users/borisrose/Desktop/ChezCaro/src/ts/services/CustomConsoleService.ts/custom-console-service.ts": {
+    "path": "/Users/borisrose/Desktop/ChezCaro/src/ts/services/CustomConsoleService.ts/custom-console-service.ts",
+    "statementMap": {
+      "0": {
+        "start": { "line": 7, "column": 4 },
+        "end": { "line": 7, "column": 24 }
+      },
+      "1": {
+        "start": { "line": 11, "column": 4 },
+        "end": { "line": 11, "column": 23 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": { "line": 4, "column": 2 },
+          "end": { "line": 4, "column": 3 }
+        },
+        "loc": {
+          "start": { "line": 4, "column": 16 },
+          "end": { "line": 4, "column": 18 }
+        },
+        "line": 4
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": { "line": 6, "column": 2 },
+          "end": { "line": 6, "column": 3 }
+        },
+        "loc": {
+          "start": { "line": 6, "column": 16 },
+          "end": { "line": 8, "column": 3 }
+        },
+        "line": 6
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": { "line": 10, "column": 2 },
+          "end": { "line": 10, "column": 3 }
+        },
+        "loc": {
+          "start": { "line": 10, "column": 19 },
+          "end": { "line": 12, "column": 3 }
+        },
+        "line": 10
+      }
+    },
+    "branchMap": {},
+    "s": { "0": 0, "1": 0 },
+    "f": { "0": 0, "1": 0, "2": 0 },
+    "b": {}
+  },
+  "/Users/borisrose/Desktop/ChezCaro/src/ts/services/NotificationService/notification-service.ts": {
+    "path": "/Users/borisrose/Desktop/ChezCaro/src/ts/services/NotificationService/notification-service.ts",
+    "statementMap": {
+      "0": {
+        "start": { "line": 9, "column": 4 },
+        "end": { "line": 9, "column": 29 }
+      },
+      "1": {
+        "start": { "line": 13, "column": 4 },
+        "end": { "line": 13, "column": 28 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": { "line": 6, "column": 2 },
+          "end": { "line": 6, "column": 3 }
+        },
+        "loc": {
+          "start": { "line": 6, "column": 16 },
+          "end": { "line": 6, "column": 18 }
+        },
+        "line": 6
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": { "line": 8, "column": 2 },
+          "end": { "line": 8, "column": 3 }
+        },
+        "loc": {
+          "start": { "line": 8, "column": 21 },
+          "end": { "line": 10, "column": 3 }
+        },
+        "line": 8
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": { "line": 12, "column": 2 },
+          "end": { "line": 12, "column": 3 }
+        },
+        "loc": {
+          "start": { "line": 12, "column": 24 },
+          "end": { "line": 14, "column": 3 }
+        },
+        "line": 12
+      }
+    },
+    "branchMap": {},
+    "s": { "0": 0, "1": 0 },
+    "f": { "0": 0, "1": 0, "2": 0 },
+    "b": {}
+  },
+  "/Users/borisrose/Desktop/ChezCaro/src/ts/views/home-view/home-view.ts": {
+    "path": "/Users/borisrose/Desktop/ChezCaro/src/ts/views/home-view/home-view.ts",
+    "statementMap": {
+      "0": {
+        "start": { "line": 2, "column": 2 },
+        "end": { "line": 10, "column": 9 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": { "line": 1, "column": 15 },
+          "end": { "line": 1, "column": 16 }
+        },
+        "loc": {
+          "start": { "line": 1, "column": 27 },
+          "end": { "line": 11, "column": 1 }
+        },
+        "line": 1
+      }
+    },
+    "branchMap": {},
+    "s": { "0": 1 },
+    "f": { "0": 1 },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "2770911153ac075ae7d5f6ee242d4711215a8fe6"
+  },
+  "/Users/borisrose/Desktop/ChezCaro/src/ts/views/log-view/log-view.ts": {
+    "path": "/Users/borisrose/Desktop/ChezCaro/src/ts/views/log-view/log-view.ts",
+    "statementMap": {
+      "0": {
+        "start": { "line": 2, "column": 2 },
+        "end": { "line": 8, "column": 9 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": { "line": 1, "column": 15 },
+          "end": { "line": 1, "column": 16 }
+        },
+        "loc": {
+          "start": { "line": 1, "column": 27 },
+          "end": { "line": 9, "column": 1 }
+        },
+        "line": 1
+      }
+    },
+    "branchMap": {},
+    "s": { "0": 0 },
+    "f": { "0": 0 },
+    "b": {}
+  }
+}

@@ -1,4 +1,4 @@
-import header from "./src/ts/layout/header"
+import header from "./src/ts/layout/header/header"
 import homeView from "./src/ts/views/home-view/home-view"
 import logView from "./src/ts/views/log-view/log-view"
 

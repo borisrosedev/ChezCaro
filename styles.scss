@@ -4,6 +4,9 @@
 @use "./src/sass/base/base";
 
 //----------------COMPONENTS
+@use "./src/sass/components/input-article";
+@use "./src/sass/components/button";
+@use "./src/sass/components/form";
 
 //----------------LAYOUT
 @use "./src/sass/layout/header";
