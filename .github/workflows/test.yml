@@ -1,22 +1,21 @@
 name: Test Prettier Check
 run-name: ${{ github.actor }} is running the prettier test
-on: 
-    push:
-        branches:
-            - master
+on:
+  push:
+    branches:
+      - master
 permissions:
-    contents: read
-    
-jobs: 
-    do-the-test:
-        runs-on: ubuntu-latest
-        steps:
-            - name: 'Put the App Folder into the executor virtual machine'
-              uses: actions/checkout@v4
-            - name: 'Install Node.js'
-              uses: actions/setup-node@v4
-              with:
-                node-version-file: .node-version
-                cache: npm
-            - run: npm install && npm run format:check
+  contents: read
 
+jobs:
+  do-the-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Put the App Folder into the executor virtual machine"
+        uses: actions/checkout@v4
+      - name: "Install Node.js"
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: npm
+      - run: npm install && npm run format:check
