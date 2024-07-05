@@ -22,19 +22,19 @@ parserOptions:
     configFile: false
     presets:
       - jest
-  project: './tsconfig.json'
+  project: "./tsconfig.json"
 
 plugins:
   - "@typescript-eslint"
-  - jest 
+  - jest
   - prettier
 
 extends:
- - eslint:recommended
- - plugin:@typescript-eslint/recommended
- - plugin:github/recommended
- - plugin:jest/recommended
- - plugin:prettier/recommended
+  - eslint:recommended
+  - plugin:@typescript-eslint/recommended
+  - plugin:github/recommended
+  - plugin:jest/recommended
+  - plugin:prettier/recommended
 
 rules:
   prettier/prettier: "error"

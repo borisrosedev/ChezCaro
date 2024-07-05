@@ -5,7 +5,7 @@ install_webpack_deps(){
     #npm install webpack-dev-server --save-dev
 
     #---------------LOADER------------------
-    npm install css-loader style-loader ts-loader babel-loade vue-loader --save-dev
+    npm install css-loader style-loader ts-loader  sass-loader babel-loader vue-loader --save-dev
 
     #---------------PLUGINS------------------
     npm install copy-webpack-plugin html-webpack-plugin --save-dev
