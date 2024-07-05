@@ -1,2 +1,16 @@
 .form {
+  display: flex;
+  flex-direction: column;
+
+  &__inputs {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__buttons {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  padding: 10px;
 }

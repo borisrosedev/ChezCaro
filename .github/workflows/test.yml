@@ -1,5 +1,5 @@
-name: Test Prettier Check
-run-name: ${{ github.actor }} is running the prettier test
+name: Test Prettier and Eslint Check
+run-name: ${{ github.actor }} is running the format check
 on:
   push:
     branches:
@@ -20,4 +20,23 @@ jobs:
           node-version-file: .node-version
           cache: npm
 
-      - run: npm install && npm run format:check && npm run test
+      - name: "Install Dependencies"
+        run: npm install
+
+      - name: "Check if Prettier Formatted"
+        id: prettier
+        run: npm run format:check
+
+      - name: "Check if Eslint Formatted"
+        id: eslint
+        if: ${{ success() && steps.prettier.conclusion == 'success' }}
+        run: npm run lint
+
+      - name: "Run Tests"
+        id: jest
+        if: ${{ success() && steps.eslint.conclusion == 'success' }}
+        run: npm run test
+
+      - name: "Conclusion"
+        if: ${{ success() && steps.jest.conclusion == 'success' }}
+        run: echo ✅ All Good !!!

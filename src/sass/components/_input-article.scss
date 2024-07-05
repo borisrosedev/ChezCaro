@@ -1,2 +1,23 @@
+@use "../base/variables";
+
 .input-article {
+  margin-block: 10px;
+  display: flex;
+  flex-direction: column;
+  input {
+    padding: 6px;
+    outline: variables.$primary-color solid 1px;
+    border: none;
+    border-radius: 5px;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__error {
+    height: 10px;
+    font-size: small;
+  }
 }

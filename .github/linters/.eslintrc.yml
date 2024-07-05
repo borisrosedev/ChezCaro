@@ -14,6 +14,7 @@ ignorePatterns:
   - "*.json"
   - "**/types/*.d.ts"
   - "**/__test__/*.ts"
+  - "**webpack.config.js"
 
 parser: "@typescript-eslint/parser"
 
@@ -41,6 +42,8 @@ rules:
   import/no-anonymous-default-export: "off"
   prettier/prettier: "error"
   import/no-commonjs: "off"
+  eslint-comments/no-use: "off"
+  eslint-comments/no-unlimited-disable: "off"
   no-unused-vars: "off"
   no-undef: "off"
   eqeqeq: "off"
