@@ -19,5 +19,5 @@ jobs:
         with:
           node-version-file: .node-version
           cache: npm
-          
+
       - run: npm install && npm run format:check && npm run test
