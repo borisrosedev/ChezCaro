@@ -17,7 +17,7 @@ window.onpopstate = () => {
   navigateToView(window.location.hash)
 }
 
-const navigateToView = (h: string): void => {
+export const navigateToView = (h: string): void => {
   window.history.pushState({}, "", window.location.pathname + h)
 
   const app = document.getElementById("app")

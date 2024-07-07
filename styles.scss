@@ -1,9 +1,10 @@
-@use "./src/sass/base/topology";
-@use "./src/sass/base/variables";
-@use "./src/sass/utils/keyframes";
+@use "./src/sass/base/typography";
+@use "./src/sass/abstracts/variables";
+@use "./src/sass/abstracts/keyframes";
 @use "./src/sass/base/base";
 
 //----------------COMPONENTS
+@use "./src/sass/components/message";
 @use "./src/sass/components/input-article";
 @use "./src/sass/components/button";
 @use "./src/sass/components/form";

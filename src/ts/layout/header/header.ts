@@ -15,7 +15,16 @@ const navBar = (): string => {
 export default function (): string {
   return `
             <header class="header header--app">
-                <a href="" data-testid="home-anchor">ChezCaro</a>
+                <a 
+                    class="home-link"
+                    href="" 
+                    data-testid="home-anchor" 
+                >
+                    <figure>
+                        <img src="/assets/chef.jpg" alt="logo de Chez Caro" />
+                    </figure>
+                    ChezCaro
+                </a>
                 ${navBar()}
             </header>
         

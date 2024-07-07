@@ -7,8 +7,12 @@
     "forceConsistentCasingInFileNames": true,
     "module": "ES2022",
     "target": "ES5",
+    "lib": ["ES2015", "DOM"],
     "jsx": "react",
     "allowJs": true,
-    "moduleResolution": "Node"
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "types": ["cypress"]
   }
 }

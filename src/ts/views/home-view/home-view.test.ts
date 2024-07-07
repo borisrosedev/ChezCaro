@@ -1,6 +1,7 @@
 import header from "../../layout/header/header"
 import homeView from "./home-view"
 import { screen } from "@testing-library/dom"
+import "@testing-library/jest-dom"
 
 let app
 describe("HomeView Suite", () => {
@@ -17,6 +18,15 @@ describe("HomeView Suite", () => {
 
 function tests() {
   test("should a text HomeView", () => {
-    expect(screen.getByText("Home View")).toBeTruthy()
+    const headerMainContentParagraph = screen
+      .getByTestId("message")
+      .querySelector("header p")
+    expect(headerMainContentParagraph).toHaveTextContent(
+      "Bienvenue sur ChezCaro"
+    )
+  })
+
+  test("should have a button with Nos plats", () => {
+    expect(screen.getByRole("button")).toHaveTextContent("Nos plats")
   })
 }

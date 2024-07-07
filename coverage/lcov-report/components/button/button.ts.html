@@ -29,9 +29,9 @@
           </div>
 
           <div class="fl pad1y space-right2">
-            <span class="strong">50% </span>
+            <span class="strong">83.33% </span>
             <span class="quiet">Branches</span>
-            <span class="fraction">2/4</span>
+            <span class="fraction">5/6</span>
           </div>
 
           <div class="fl pad1y space-right2">
@@ -71,10 +71,12 @@
 <a name='L10'></a><a href='#L10'>10</a>
 <a name='L11'></a><a href='#L11'>11</a>
 <a name='L12'></a><a href='#L12'>12</a>
-<a name='L13'></a><a href='#L13'>13</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L13'></a><a href='#L13'>13</a>
+<a name='L14'></a><a href='#L14'>14</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -89,7 +91,8 @@ export default function (button: CustomButton) {
   return `
             &lt;button 
                 class="button ${button.className ? <span class="branch-0 cbranch-no" title="branch not covered" >button.className </span>: ""}"
-                id="${button.id ? <span class="branch-0 cbranch-no" title="branch not covered" >button.id </span>: ""}"
+                type="${button.type ? button.type : "button"}"
+                id="${button.id ? button.id : ""}"
             &gt;
                 ${button.textContent}
             &lt;/button&gt;
@@ -109,7 +112,7 @@ export default function (button: CustomButton) {
         rel="noopener noreferrer"
         >istanbul</a
       >
-      at 2024-07-05T22:32:48.152Z
+      at 2024-07-07T10:13:05.677Z
     </div>
     <script src="../../prettify.js"></script>
     <script>

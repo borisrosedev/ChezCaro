@@ -1,0 +1,34 @@
+.message {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  header {
+    display: flex;
+    height: 60%;
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+
+    figure {
+      width: 50%;
+      height: 100%;
+    }
+
+    p {
+      text-align: center;
+      padding: 5px;
+      margin: auto;
+      width: 50%;
+    }
+  }
+
+  & > section {
+    height: 40%;
+    font-size: small;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
